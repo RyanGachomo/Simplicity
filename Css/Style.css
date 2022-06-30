@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+/*Home Page*/
+.homepage{
+    position: fixed;
+}
+/*Wallpaper*/
+.wallpaper{
+    /*background-image: url("../Images/Backgroundhomepage.png");*/
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0px;
+    width: 100%;
+}
+/*Links*/
+.links{
+   /* background-color:blue;
+    min-height: 50px;*/
+}
+.navLinks li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+.navLinks a:hover{
+    color: blueviolet;
+}
+.navLinks{
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+
+/* Monicah Mburu */
+.name{
+    /* position: absolute; */
+    width: 265px;
+    /* height: 44px; */
+    left: 64px;
+    top: 246px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+/*Line*/
+.line{
+    position: absolute;
+    width: 147.03px;
+    height: 0px;
+    left: 65px;
+    top: 330px;
+    transform: rotate(-0.17deg);
+}
+/*Occupation*/
+.occupation{
+    position: absolute;
+    width: 432px;
+    height: 44px;
+    left: 64px;
+    top: 345px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+/*Hire Me*/
+.button1{
+    position: absolute;
+    width: 152px;
+    height: 45px;
+    left: 64px;
+    top: 448px;
+}
+/*Resume*/
+.button2{
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    left: 254px;
+    top: 448px;
+}
+
+/*About me page*/
+
+/*About Me*/
+
+/*Skills page*/
+.skillspage{
+    background: #E0B0B0;
+    background-size: cover;
+    min-height: 577px;
+}
+/*Photoshop*/
+.photoshop{
+    position: absolute;
+    width: 118px;
+    height: 28px;
+    left: 147px;
+    top: 154px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+}
+.check1{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 88px;
+    top: 144px;  
+    background: url(check.png);    
+}
+/*Illustrator*/
+.illustrator{
+    position: absolute;
+    width: 103px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;    
+}
+.check2{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 88px;
+    top: 245px;
+    background: url(check.png);    
+}
+/*Adobe XD*/
+.adobe{
+    position: absolute;
+    width: 109px;
+    height: 28px;
+    left: 147px;
+    top: 351px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+}
+.check3{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 88px;
+    top: 347px;
+    background: url(check.png);    
+}
+/*People skills*/
+.people{
+    position: absolute;
+    width: 137px;
+    height: 28px;
+    left: 640px;
+    top: 154px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+}
+.check4{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 576px;
+    top: 144px;
+    background: url(check.png);    
+}
+/*Entreprenuer Skills*/
+.skills{
+    position: absolute;
+    width: 204px;
+    height: 28px;
+    left: 641px;
+    top: 244px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+}
+.check5{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url(check.png);
+}
+/*money skills*/
+.money{
+    position: absolute;
+    width: 136px;
+    height: 28px;
+    left: 642px;
+    top: 351px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;    
+}
+.check6{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 576px;
+    top: 347px;
+    background: url(check.png);    
+}
+/*Work Page*/
+.workspage{
+    background-color: #E0B0B0;
+    background-size: cover;
+    min-height: 577px;
+}
+.fanta{
+    position: absolute;
+    width: 259px;
+    height: 367px;
+    left: 54px;
+    top: 50px;   
+}
+.poster{
+    position: absolute;
+    width: 133px;
+    height: 27px;
+    left: 0px;
+    top: 380px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px; 
+    line-height: 27px;
+    color: #000000;
+}
+.jordan{
+    position: absolute;
+    width: 242px;
+    height: 342px;
+    left: 500px;
+    top: 160px;
+    background: url(Jordan.jpg);    
+}
+.jp{
+    position: absolute;
+    width: 146px;
+    height: 27px;
+    left: 0px;
+    top: 360px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.sunset{
+    position: absolute;
+    width: 260px;
+    height: 368px;
+    left: 952px;
+    top: 50px;
+    background: url(sunset.jpg);
+}
+.sp{
+    position: absolute;
+    width: 196px;
+    height: 27px;
+    left: 0px;
+    top: 380px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+/*Contact Page*/
+.contact{
+    background-color: #C4C4C4;
+    background-size: cover;
+    min-height: 577px;  
+}
+.find{
+    position: absolute;
+    width: 246px;
+    height: 57px;
+    left: 116px;
+    top: 147px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 57px;
+    color: #000000;       
+}
+.start{
+    position: absolute;
+    width: 449px;
+    height: 57px;
+    left: 729px;
+    top: 147px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 57px;
+    color: #000000;
+}
+.twitter{
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 116px;
+    top: 240px;
+    background: url(.png);
+}
+.tinfo{
+    position: absolute;
+    width: 162px;
+    height: 27px;
+    left: 80px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.in{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 145px;
+    top: 325px;
+}
+.iinfo{
+    position: absolute;
+    width: 162px;
+    height: 27px;
+    left: 70px;
+    top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;       
+}
+.ig{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 195px;
+    top: 423px;
+    background: url(.png);
+}
+.igp{
+    position: absolute;
+    width: 162px;
+    height: 27px;
+    left: 63px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;    
+}
+.tel{
+    position: absolute;
+    width: 64px;
+    height: 47px;
+    left: 729px;
+    top: 250px; 
+    background: url(.png);
+}
+.phone{
+    position: absolute;
+    width: 64px;
+    height: 47px;
+    left: 0px;
+    top: 0px;
+    background: url(.png);
+}
+.phonep{
+    position: absolute;
+    width: 134px;
+    height: 27px;
+    left: 55px;
+    top: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.whatsapp{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 775px;
+    top: 321px;
+    background: url(.png);
+}
+.appp{
+    position: absolute;
+    width: 134px;
+    height: 27px;
+    left: 60px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.mail{
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    left: 798px;
+    top: 429px;
+}
+.gmail{
+    position: absolute;
+    width: 322px;
+    height: 27px;
+    left: 60px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;  
+    color: #000000;
+}
